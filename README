@@ -1,0 +1,5 @@
+Design FTP server honeypot
+
+Script depends on the following library
+
+http://code.google.com/p/pyftpdlib/
