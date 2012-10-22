@@ -122,7 +122,8 @@ class MyFTPHandler(ftpserver.FTPHandler):
             # call the proper ftp_* method
             self.process_command(cmd, arg, **kwargs)
 
-now = lambda: time.strftime("[%Y-%b-%d %H:%M:%S]")
+
+now = lambda: time.strftime("%Y-%b-%d %H:%M:%S ")
 flog = open('ftpd.log', 'a')
 clog = open('commands-ftpd.log', 'a')
 elog = open('errors-ftpd.log','a')
