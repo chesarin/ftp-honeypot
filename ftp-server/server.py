@@ -152,7 +152,7 @@ def main():
     # Define a new user having full r/w permissions and a read-only
     # anonymous user
     authorizer.add_user('test', password="12345", homedir='.', perm='elradfmw')
-    authorizer.add_anonymous(homedir='.')
+#    authorizer.add_anonymous(homedir='.')
 
     # Instantiate FTP handler class
 #    handler = ftpserver.FTPHandler
